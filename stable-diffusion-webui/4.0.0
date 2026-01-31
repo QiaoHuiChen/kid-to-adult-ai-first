@@ -1,0 +1,94 @@
+Requirement already satisfied: gradio in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (3.41.2)
+Collecting gradio
+  Downloading gradio-6.3.0-py3-none-any.whl (23.0 MB)
+     ---------------------------------------- 23.0/23.0 MB 1.1 MB/s eta 0:00:00
+Requirement already satisfied: typing-extensions~=4.0 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from gradio) (4.15.0)
+Collecting httpx<1.0,>=0.24.1
+  Using cached httpx-0.28.1-py3-none-any.whl (73 kB)
+Requirement already satisfied: anyio<5.0,>=3.0 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from gradio) (4.12.0)
+Collecting pydub
+  Using cached pydub-0.25.1-py2.py3-none-any.whl (32 kB)
+Requirement already satisfied: pillow<13.0,>=8.0 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from gradio) (10.4.0)
+Collecting brotli>=1.1.0
+  Downloading brotli-1.2.0-cp310-cp310-win_amd64.whl (369 kB)
+     ------------------------------------ 369.0/369.0 kB 287.0 kB/s eta 0:00:00
+Requirement already satisfied: pyyaml<7.0,>=5.0 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from gradio) (6.0.3)
+Collecting jinja2<4.0
+  Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+Collecting uvicorn>=0.14.0
+  Using cached uvicorn-0.40.0-py3-none-any.whl (68 kB)
+Collecting typer<1.0,>=0.12
+  Downloading typer-0.21.1-py3-none-any.whl (47 kB)
+     -------------------------------------- 47.4/47.4 kB 140.2 kB/s eta 0:00:00
+Collecting orjson~=3.0
+  Using cached orjson-3.11.5-cp310-cp310-win_amd64.whl (133 kB)
+Collecting tomlkit<0.14.0,>=0.12.0
+  Downloading tomlkit-0.13.3-py3-none-any.whl (38 kB)
+Requirement already satisfied: pydantic<=3.0,>=2.0 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from gradio) (2.12.5)
+Requirement already satisfied: python-multipart>=0.0.18 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from gradio) (0.0.21)
+Requirement already satisfied: pandas<3.0,>=1.0 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from gradio) (2.3.3)
+Collecting safehttpx<0.2.0,>=0.1.7
+  Downloading safehttpx-0.1.7-py3-none-any.whl (9.0 kB)
+Collecting markupsafe<4.0,>=2.0
+  Using cached markupsafe-3.0.3-cp310-cp310-win_amd64.whl (15 kB)
+Collecting gradio-client==2.0.3
+  Downloading gradio_client-2.0.3-py3-none-any.whl (55 kB)
+     -------------------------------------- 55.7/55.7 kB 181.7 kB/s eta 0:00:00
+Collecting aiofiles<25.0,>=22.0
+  Downloading aiofiles-24.1.0-py3-none-any.whl (15 kB)
+Requirement already satisfied: semantic-version~=2.0 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from gradio) (2.10.0)
+Collecting fastapi<1.0,>=0.115.2
+  Downloading fastapi-0.128.0-py3-none-any.whl (103 kB)
+     ------------------------------------ 103.1/103.1 kB 228.1 kB/s eta 0:00:00
+Requirement already satisfied: huggingface-hub<2.0,>=0.33.5 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from gradio) (0.36.0)
+Requirement already satisfied: packaging in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from gradio) (25.0)
+Collecting groovy~=0.1
+  Downloading groovy-0.1.2-py3-none-any.whl (14 kB)
+Requirement already satisfied: starlette<1.0,>=0.40.0 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from gradio) (0.50.0)
+Collecting ffmpy
+  Using cached ffmpy-1.0.0-py3-none-any.whl (5.6 kB)
+Requirement already satisfied: numpy<3.0,>=1.0 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from gradio) (2.2.6)
+Requirement already satisfied: fsspec in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from gradio-client==2.0.3->gradio) (2025.12.0)
+Requirement already satisfied: exceptiongroup>=1.0.2 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from anyio<5.0,>=3.0->gradio) (1.3.1)
+Requirement already satisfied: idna>=2.8 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from anyio<5.0,>=3.0->gradio) (3.11)
+Requirement already satisfied: annotated-doc>=0.0.2 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from fastapi<1.0,>=0.115.2->gradio) (0.0.4)
+Requirement already satisfied: httpcore==1.* in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from httpx<1.0,>=0.24.1->gradio) (1.0.9)
+Requirement already satisfied: certifi in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from httpx<1.0,>=0.24.1->gradio) (2025.11.12)
+Requirement already satisfied: h11>=0.16 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from httpcore==1.*->httpx<1.0,>=0.24.1->gradio) (0.16.0)
+Requirement already satisfied: requests in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from huggingface-hub<2.0,>=0.33.5->gradio) (2.32.5)
+Requirement already satisfied: tqdm>=4.42.1 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from huggingface-hub<2.0,>=0.33.5->gradio) (4.67.1)
+Requirement already satisfied: filelock in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from huggingface-hub<2.0,>=0.33.5->gradio) (3.20.1)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from pandas<3.0,>=1.0->gradio) (2025.3)
+Requirement already satisfied: pytz>=2020.1 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from pandas<3.0,>=1.0->gradio) (2025.2)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from pandas<3.0,>=1.0->gradio) (2.9.0.post0)
+Requirement already satisfied: typing-inspection>=0.4.2 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from pydantic<=3.0,>=2.0->gradio) (0.4.2)
+Requirement already satisfied: annotated-types>=0.6.0 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from pydantic<=3.0,>=2.0->gradio) (0.7.0)
+Requirement already satisfied: pydantic-core==2.41.5 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from pydantic<=3.0,>=2.0->gradio) (2.41.5)
+Collecting rich>=10.11.0
+  Downloading rich-14.2.0-py3-none-any.whl (243 kB)
+     -------------------------------------- 243.4/243.4 kB 1.1 MB/s eta 0:00:00
+Collecting shellingham>=1.3.0
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Requirement already satisfied: click>=8.0.0 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from typer<1.0,>=0.12->gradio) (8.3.1)
+Requirement already satisfied: colorama in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from click>=8.0.0->typer<1.0,>=0.12->gradio) (0.4.6)
+Requirement already satisfied: six>=1.5 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from python-dateutil>=2.8.2->pandas<3.0,>=1.0->gradio) (1.17.0)
+Collecting pygments<3.0.0,>=2.13.0
+  Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+     ---------------------------------------- 1.2/1.2 MB 1.1 MB/s eta 0:00:00
+Collecting markdown-it-py>=2.2.0
+  Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+     -------------------------------------- 87.3/87.3 kB 707.2 kB/s eta 0:00:00
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from requests->huggingface-hub<2.0,>=0.33.5->gradio) (2.6.2)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\pious\appdata\local\programs\python\python310\lib\site-packages (from requests->huggingface-hub<2.0,>=0.33.5->gradio) (3.4.4)
+Collecting mdurl~=0.1
+  Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pydub, brotli, tomlkit, shellingham, pygments, orjson, mdurl, markupsafe, groovy, ffmpy, aiofiles, uvicorn, markdown-it-py, jinja2, rich, httpx, typer, safehttpx, gradio-client, fastapi, gradio
+  Attempting uninstall: gradio-client
+    Found existing installation: gradio_client 0.5.0
+    Uninstalling gradio_client-0.5.0:
+      Successfully uninstalled gradio_client-0.5.0
+  Attempting uninstall: gradio
+    Found existing installation: gradio 3.41.2
+    Uninstalling gradio-3.41.2:
+      Successfully uninstalled gradio-3.41.2
+Successfully installed aiofiles-24.1.0 brotli-1.2.0 fastapi-0.128.0 ffmpy-1.0.0 gradio-6.3.0 gradio-client-2.0.3 groovy-0.1.2 httpx-0.28.1 jinja2-3.1.6 markdown-it-py-4.0.0 markupsafe-3.0.3 mdurl-0.1.2 orjson-3.11.5 pydub-0.25.1 pygments-2.19.2 rich-14.2.0 safehttpx-0.1.7 shellingham-1.5.4 tomlkit-0.13.3 typer-0.21.1 uvicorn-0.40.0
